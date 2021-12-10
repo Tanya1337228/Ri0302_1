@@ -32,6 +32,12 @@ namespace ConsoleApp1
                     devide(A, B);
                     break;
             }
+            void devide(int a, int b)
+            {
+                double _1 = (double)a;
+                double _2 = (double)b;
+                Console.WriteLine(_1 / _2);
+            }
         }
     }
 }
