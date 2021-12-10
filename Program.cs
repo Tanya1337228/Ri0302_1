@@ -32,6 +32,12 @@ namespace ConsoleApp1
                     devide(A, B);
                     break;
             }
+
+            void multy(int a, int b)
+            {
+                Console.WriteLine(a * b);
+
+            }
         }
     }
 }
